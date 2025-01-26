@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* header */
+.nav-sty {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.nav-img-sty {
+  width: 100%;
+  max-width: 150px;
+}
+.head-div-sty {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-para-sty {
+  padding: 0px 30px 0px 10px;
+  font-size: 18px;
+  font-family: "Noto Sans";
+}
+.nav-btn-sty {
+  padding: 15px 15px;
+  border: none;
+  font-family: "Noto Sans";
+  border-radius: 10px;
+}
+.nav-btn-sty:hover {
+  background-color: #b91c21;
+  color: white;
+}
+/* hero section */
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-sty {
+  padding-left: 70px;
+  padding-top: 270px;
+  margin: 0;
+}
+.content-sty-first-heading {
+  font-family: "Grand Hotel", cursive;
+  font-size: 30px;
+  font-weight: normal;
+  padding-left: 300px;
+  position: relative;
+  top: 6px;
+  left: -13px;
+  transform: rotate(343deg);
+}
+
+.content-sty-heading {
+  font-family: "Poppins", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -3px;
+}
+.content-sty-symbol {
+  font-weight: normal;
+  display: inline-block;
+  position: relative;
+  top: -19px;
+  font-size: 28px;
+}
+.content-sty-para{
+font-family: 'Noto Sans'; 
+font-size: 21px; 
+}
+.content-rgt-img
+{
+  width: 100%;
+  max-width: 774px;
+}
+.vehicle-img-sty
+{
+  position: absolute;
+  top: 648px;
+  left: -209px;
+  width: 100%;
+  max-width: 558px;
+  z-index: -1;
+}
+.container-pur-sty
+{
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  
+}
+.inner-box1{
+  width: 600px;
+  height: 100px;
+  background-color: rgb(0, 128, 128);
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 30px;
+  align-items: center;
+}
+.inner-box1-icon
+{
+   display: flex;
+
+}
+.inner-box2{
+  width: 600px;
+  height: 100px;
+  background-color:pink;
+}
